@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26d96db9-577f-41a4-802b-877ed58470b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="26d96db9-577f-41a4-802b-877ed58470b5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
           <entry key="Vagrantfile" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -33,19 +31,21 @@
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="95" />
-          <entry key="py" value="77" />
+          <entry key="py" value="91" />
+          <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="95" />
-          <entry key="Python" value="77" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="Python" value="91" />
         </counts>
       </usages-collector>
     </session>
@@ -65,7 +65,16 @@
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -88,6 +97,8 @@
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/hello_world.py" />
         <option value="$PROJECT_DIR$/src/profiles_project/profiles_project/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/src/profiles_project/profiles_api/models.py" />
       </list>
     </option>
   </component>
@@ -126,6 +137,13 @@
               <item name="profiles-rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="profiles_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profiles-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profiles-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles_project" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles_api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="profiles-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -171,6 +189,21 @@
       <option name="presentableId" value="Default" />
       <updated>1539773693011</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated requirements.txt 10/17 @12:47">
+      <created>1539794830266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539794830266</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated requirements.txt 10/17 @1:05">
+      <created>1539795915562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539795915562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -213,7 +246,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -228,6 +261,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated requirements.txt 10/17 @12:47" />
+    <MESSAGE value="updated requirements.txt 10/17 @1:05" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt 10/17 @1:05" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -268,10 +306,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
